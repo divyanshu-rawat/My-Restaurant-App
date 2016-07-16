@@ -122,8 +122,24 @@
         }])
 
 
+        .controller('AboutController', ['$scope', 'corporateFactory', function($scope,corporateFactory) {
 
+                $scope.leaders_details = corporateFactory.getLeaders();
 
-        
+                // $scope.leader_details  = [corporateFactory.getLeader(3)];
+
+            
+        }])
+
+        // .controller('IndexController', ['$scope','menuFactory', function ($scope,menuFactory) {
+        .controller('IndexController',['$scope','corporateFactory','menuFactory',function($scope,corporateFactory,menuFactory){
+            
+                $scope.month_pro = [menuFactory.getpromotion(0)];
+
+                $scope.featured  = [menuFactory.getDish(0)];
+
+                $scope.leader_details  = [corporateFactory.getLeader(3)];
+        }])
+
 
 ;
