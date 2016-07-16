@@ -43,7 +43,7 @@
                     },
                     'content': {
                         template : '<h1>To be Completed</h1>',
-                        controller  : 'IndexController'
+                        controller  : ''
                     },
                     'footer': {
                         templateUrl : 'views/footer.html'
@@ -59,7 +59,8 @@
                 url:'aboutus',
                 views: {
                     'content@': {
-                        template: '<h1>To be Completed</h1>'
+                        templateUrl : 'views/aboutus.html',
+                        controller  : 'AboutController' 
                    }
                 }
             })
@@ -91,7 +92,7 @@
                 views: {
                     'content@': {
                         templateUrl : 'views/dishdetail.html',
-                        controller  : 'DishDetailController'
+                        controller  : 'dishDetailController'
                    }
                 }
             });

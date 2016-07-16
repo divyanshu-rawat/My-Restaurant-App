@@ -31,7 +31,9 @@
                  <li class="media" ng-repeat="dish in dishes | filter:filtText">
 
                   <div class="media-left media-middle">
-                      <a href="#/menu/{{dish._id}}">
+                      <!-- <a href="#/menu/{{dish._id}}"> -->
+                      <!-- this is the ui-router way of passing parameters to the controllers -->
+                      <a ui-sref="app.dishdetails({id: dish._id})">
                       <img class="media-object img-thumbnail"
                        ng-src={{dish.image}} alt="Uthappizza" />
                       </a>

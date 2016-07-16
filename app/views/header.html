@@ -11,15 +11,15 @@
       </div>
       <div id="navbar" class="navbar-collapse collpase">
          <ul class="nav navbar-nav">
-            <li class="active"><a ng-href="#/">
+            <li><a ui-sref="app">
                <span class="glyphicon glyphicon-home " aria-hidden="true"></span>Home</a>
             </li>
             <li id="#">
-               <a  ng-href="#/aboutus"><span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span> About</a>
+               <a  ui-sref="app.aboutus"><span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span> About</a>
             </li>
 
             <li class="dropdown">
-               <a ng-href="#/menu" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+               <a ui-sref="app.menu" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
                <i class="fa fa-bell"></i> Menu <span class="caret"></span></a>
                <ul class="dropdown-menu">
                   <li><a href="#">Appetizers</a></li>
@@ -33,7 +33,7 @@
                </ul>
             </li>
 
-            <li><a ng-href="#/contactus"><i class="fa fa-envelope-o"></i> Contact</a></li>
+            <li><a ui-sref="app.contactus"><i class="fa fa-envelope-o"></i> Contact</a></li>
          </ul>
          <ul class="nav navbar-nav navbar-right">
             <li>

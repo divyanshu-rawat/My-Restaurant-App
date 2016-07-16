@@ -36,13 +36,21 @@
     
 
     <!-- <ng-include src="'menu.html'" ></ng-include> -->
-    <ng-view></ng-view>
+    <!-- Using UI-View instead of ng-view -->
+    <!-- <ng-view></ng-view> -->
+    <!-- ng-view does not support multiple views ! okay but UI-router supports multiple views ! -->
+
+    <div ui-view="header"></div>
+    <div ui-view="content"></div>
+    <div ui-view="footer"></div>
+
     
   
 <!-- build:js scripts/main.js -->
     <script src="../bower_components/angular/angular.min.js"></script>
     <!-- <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script> -->
-    <script src="../bower_components/angular-route/angular-route.min.js"></script>
+    <script src="../bower_components/angular-ui-router/release/angular-ui-router.min.js"></script>
+    <!-- <script src="../bower_components/angular-route/angular-route.min.js"></script> -->
 
     <script src="scripts/app.js"></script>
     <script src="scripts/controllers.js"></script>
