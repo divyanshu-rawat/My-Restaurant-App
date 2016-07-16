@@ -1,0 +1,160 @@
+.row-header {
+  margin: 0px auto;
+  padding: 0px 0px;
+}
+.row-content {
+  margin: 0px auto;
+  padding: 50px 0px;
+  border-bottom: 1px ridge;
+  min-height: 450px;
+}
+.row-footer
+{
+    background-color:black;
+    margin: 0px auto;
+    padding: 20px 0px 20px 0px;
+}
+.jumbotron {
+  margin: 0px auto;
+  padding: 70px 30px;
+  background-image: url('../images/pic1.jpg');
+  color: floralwhite;
+  height: 400px;
+}
+.carousel {
+  background: #1a237e;
+}
+.carousel .item {
+  height: 300px;
+}
+.carousel .item img {
+  left: 0;
+  min-height: 300px;
+  position: absolute;
+  top: 0;
+}
+..navbar-inverse {
+     background:black;
+}
+
+.navbar-inverse .navbar-nav > .active > a
+{
+    color: #fff;
+    background: #1a237e;
+}
+.navbar-inverse .navbar-nav > .active > a:hover
+{
+    color: #fff;
+    background: #1a237e;
+}
+.navbar-inverse .navbar-nav > .active > a:focus
+{
+    color: #fff;
+    background: #1a237e;
+}
+.navbar-inverse .navbar-nav > .open > a:hover
+{
+    color: #fff;
+    background: #1a237e;
+}
+.navbar-inverse .navbar-nav > .open > a
+{
+    color: #fff;
+    background: #1a237e;
+}
+.navbar-inverse .navbar-nav .open .dropdown-menu> li >a
+{
+    background-color:black;
+    color:white;
+}
+
+.navbar-inverse .navbar-nav > .open > a:hover
+{
+    color: #fff;
+    background: black;
+}
+.navbar-inverse .navbar-nav .open .dropdown-menu> li> a:hover {
+    color:#000000;
+}
+.navbar-inverse .navbar-nav .open .dropdown-menu .dropdown-header
+{
+    color: grey;
+    font-weight: bolder;
+}
+.navbar-inverse .navbar-nav .open .dropdown-menu
+{
+    background-color:black;
+}
+address
+{
+    font-size: 90%;
+    margin: 0px;
+    color: #f2f2f2;
+    opacity: .9;
+}
+
+body {
+  align: center;
+  padding: 50px 0px 0px 0px;
+  z-index: 0;
+}
+.tab-content {
+  border-bottom: 1px solid #dddddd;
+  border-left: 1px solid #dddddd;
+  border-right: 1px solid #dddddd;
+  padding: 10px;
+}
+.affix {
+  top: 100px;
+}
+#carouselButtons {
+  bottom: 0px;
+  position: absolute;
+  right: 0px;
+}
+
+ul.social-buttons {
+  margin-bottom: 0
+}
+
+
+ul.social-buttons li a {
+  display: block;
+  height: 40px;
+  width: 40px;
+  border:2px solid black; 
+  border-radius: 100%;
+  font-size: 15px;
+  line-height: 40px;
+  color: #ffffff;
+  outline: 0;
+  -webkit-transition: transform 2s,background 2s;
+}
+
+ul.social-buttons li a:hover,
+ul.social-buttons li a:focus,
+ul.social-buttons li a:active {
+  background-color: #fed136;
+}
+ul.social-buttons li a:hover
+{
+    transform: rotate(360deg);
+    background: #fed136;
+}
+#sample
+{
+    color:black;
+    font-weight:bold;
+    font-style:italic;
+    opacity:.8;
+    position:relative;
+    top:550px;
+
+}
+.label-default
+{
+    font-size: 18px;
+    background-color: black;
+    color:red;
+    border-radius: 30px;
+}
