@@ -10,7 +10,14 @@
             $scope.filtText = '';
             $scope.showDetails = true;
 
-            $scope.dishes= menuFactory.getDishes();
+            $scope.dishes= [];
+
+            menuFactory.getDishes()
+            .then(
+                function(response) {
+                    $scope.dishes = response.data;
+                }
+            );
                         
             $scope.select = function(setTab) {
                 $scope.tab = setTab;
@@ -86,7 +93,16 @@
 
             .controller('dishDetailController', ['$scope','$stateParams', 'menuFactory', function($scope,$stateParams, menuFactory) {
 
-            $scope.dish = [menuFactory.getDish(parseInt($stateParams.id,10))];
+              $scope.dish = [];
+            
+             menuFactory.getDish(parseInt($stateParams.id,10))
+             .then(
+                function(response){
+                    $scope.dish = response.data;
+                    $scope.showDish=true;
+                }
+            );
+
             $scope.filtext = '';
 
            
@@ -136,7 +152,17 @@
             
                 $scope.month_pro = [menuFactory.getpromotion(0)];
 
-                $scope.featured  = [menuFactory.getDish(0)];
+                // $scope.featured  = [menuFactory.getDish(0)];
+
+                $scope.featured = [];
+
+                menuFactory.getDish(0)
+                .then(
+                    function(response){
+                        $scope.featured = response.data;
+                        $scope.showDish = true;
+                    }
+                );
 
                 $scope.leader_details  = [corporateFactory.getLeader(3)];
         }])
