@@ -4,8 +4,10 @@
 <!-- Working On ANGULAR Template -->
 
     <div class="container" ng-controller="dishDetailController">
-
-        <div class="row row-content"  >
+         <div class="col-xs-12" ng-if="!showDish">
+                <h3>{{message}}</h3>
+            </div>
+        <div class="row row-content" ng-if="showDish" >
               <div class="col-xs-12">
               
                  <button class="btn btn-xs btn-primary pull-right"

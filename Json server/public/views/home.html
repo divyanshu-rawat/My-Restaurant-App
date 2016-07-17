@@ -7,7 +7,10 @@
                 <h3 align=center>Our Lipsmacking Culinary Creations</h3>
             </div>
             <div class="col-xs-12 col-sm-9 col-sm-pull-3">
-				    <div class="media" ng-repeat=" dish in featured">
+                    <div ng-if="!showDish">
+                        <h3>{{message}}</h3>
+                    </div>
+				    <div class="media" ng-repeat=" dish in featured" ng-if="showDish">
                      <div class="media-body">
                     <h2>{{dish.name}} &nbsp;<span class="label label-default">{{dish.label}}</span>&nbsp;<span class="badge">{{dish.price | currency}}</span></h2>
                     <p> {{dish.description}}</p>
