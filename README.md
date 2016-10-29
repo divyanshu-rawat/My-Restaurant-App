@@ -5,9 +5,9 @@
 
 ### Installation Instructions :grey_exclamation:
 
-* clone or Download the repo. into any fresh temporary folder.
+* Clone or download the repo. into any fresh temporary folder.
 
-* cd into that root folder you just cloned locally.
+* Cd into that root folder you just cloned locally.
 
 * Open Json Server Folder.
 
