@@ -31,7 +31,7 @@
 
 > Main Page
 
-![alt tag](https://github.com/divyanshu-rawat/Single-Page-Application-Enhancing-User-Experience/blob/master/Json%20server/public/snap_shots/front_end.png.png
+![alt tag](https://github.com/divyanshu-rawat/Single-Page-Application-Enhancing-User-Experience/blob/master/Json%20server/public/snap_shots/front_end.png
 )
 
 > Contact Page
