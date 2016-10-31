@@ -1,5 +1,3 @@
-# Single-Page-Application-Enhancing-User-Experience
-
 
 > Built :astonished: on taking advantage :shaved_ice: of Front-End :lollipop: JavaScript Framework (Angular JS) :pizza: :wine_glass: 
 
