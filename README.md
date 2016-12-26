@@ -2,7 +2,7 @@
 > Built :astonished: on taking advantage :shaved_ice: of Front-End :lollipop: JavaScript Framework (Angular JS) :pizza: :wine_glass: 
 
 
-### Installation Instructions :grey_exclamation:
+#### Installation Instructions :grey_exclamation:
 
 * Clone or download the repo. into any fresh temporary folder.
 
@@ -10,23 +10,32 @@
 
 * Open Json Server Folder.
 
-* Enter following command in Terminal json-server --watch db.json
+* Enter following command in Terminal 
 
-* Go to http://localhost:3000/#/
+```javascript
+    json-server --watch db.json
+```
 
-### Package Manager Used 
+* then go to 
+
+```javascript
+    http://localhost:3000/#/
+```
+
+
+#### Package Manager Used 
 
 * Bower — A package manager for the web.
 
 * NPM is the default package manager for the JavaScript runtime environment Node.js.
 
-### Dependencies
+#### Dependencies
 
 * "angular": "~1.5.8" , "bootstrap": "~3.3.7", "route": "~0.2.5",  "underscore": "~1.8.3", "jquery": "~3.1.1",
 * "angular-route": "~1.5.8", "angular-resource": "~1.5.8",  "font-awesome": "~4.7.0",  "angular-ui-router": "~0.3.1"
 
 
-### Example
+#### Example
 
 > Main Page
 
